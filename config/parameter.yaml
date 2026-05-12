@@ -1,3 +1,9 @@
+sensor_combination_type:
+  - ins: on
+  - camera: off
+  - lidar: off
+  - gnss: off
+
 ins_parameter:
 
 
@@ -9,3 +15,14 @@ lidar_parameter:
 
 gnss_parameter:
 
+
+sensor_extrinsic_parameters:
+  - ins_to_camera:
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  - ins_to_lidar:
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  - ins_to_gnss:
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
